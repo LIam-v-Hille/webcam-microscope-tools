@@ -1,0 +1,22 @@
+
+--HOW TO CALIBRATE YOUR MICROSCOPE--
+
+you will need:
+    - a microscope
+    - an object of known width or a pair of calipers
+
+method
+
+step 1: if you are using calipers you should set them to 1mm and tighten down the tension.
+step 2: start up the program
+step 3: place your object or calipers over the microscope sensor
+step 4: press the pause bind (defualt: 'p')
+step 5: this is the hard part, click on one side of your object and then click on the opposite side in the same location,
+        if you are using calipers you should measure across the back tips used for internal features.
+step 6: look at your console, there will be a pixel readout; divide this number by 1000 and set your scale (in local_settings.py) to that.
+        if you are not using calipers set to 1mm then you should divide by the size of your object in microns instead.
+step 7: congrats, you should now be set up correctly.
+step 8: to check your settings measure your objet again and look at the readout, if it matches your object's size then you are good to go.
+        if not then repeat steps 5 and 6.
+
+an example of what your calibration image may look like is 'example calibration.png'
